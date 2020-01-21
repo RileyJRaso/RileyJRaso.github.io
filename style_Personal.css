@@ -1,0 +1,159 @@
+/* Following navagation Bar adapted from https://www.w3schools.com/css/css_navbar.asp */
+ul.Navagation {
+  list-style-type: none;
+  font-family: Lato,sans-serif;
+  font-weight: 800;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 0 10px 0;
+  border-bottom-style: groove;
+  border-color: #0048ba;
+  left: 0;
+  right: 0; /*Test for Top vs Side Navagation */
+  top: 0;
+  width: 100%;       /* 125px width for Side Navagation */
+  height: 50px;       /* Full height for Side Navagation */
+  position: fixed;   /* Make it stick, even on scroll */
+  overflow: auto;     /* Enable scrolling if the sidenav has too much content */
+  z-index: 100;
+  background-color: #c0c0c0;
+  /*background-color: #FFFFFF;*/
+}
+
+li.Navagation{
+  position: relative;
+  float: left;
+  text-align: left;
+}
+
+li.Current{
+  background-color: #0048ba;
+  color: #F5F5F5;
+  position: relative;
+  float: left;
+  text-align: left;
+}
+
+a.Navagation {
+  text-align: center;
+  text-transform: capitalize;
+  display: block;
+  padding: 15px 20px;
+  margin: 0;
+  border: 0;
+  color: #000000;
+  text-shadow: 1px 1px 4px #FFFFFF;
+  z-index: 101;
+  text-decoration: none;
+}
+
+a.Navagation:hover {
+  background-color: #0048ba;
+  color: #F5F5F5;
+}
+
+
+
+body {
+  background-color:	#F5F5F5;
+  font-family: Lato,sans-serif;
+  font-weight: 600;
+  width: 100%
+  border: 0;
+  /*float: right;*/
+  overflow: auto
+}
+
+div{
+  position: relative;
+  width: inherit;
+}
+
+h1{
+  color: #000000;
+  text-Align: Center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px 4px #808080;
+}
+
+h2{
+  color: #000000;
+  text-align: left;
+  display: inline;
+  text-shadow: 2px 2px 8px #808080;
+  height:5px;
+  z-index: 1;
+  background-color: #F5F5F5;
+  padding-right:20px;
+  }
+
+b.Blue {
+  color: #0048ba;
+  font-weight: 200;
+}
+
+b.Red {
+  color: Red;
+  font-weight: 200;
+}
+
+hr.Heading{
+  position:relative;
+  margin-top:-17px;
+  height: 2px;
+  z-index:-1;
+  }
+
+hr.Blue{
+  background: #0048ba;
+  position:relative;
+  margin-top:-17px;
+  height: 1px;
+  z-index:-1;
+}
+
+hr.Red{
+  background: Red;
+  position:relative;
+  margin-top:-17px;
+  height: 2px;
+  z-index:-1;
+
+}
+
+
+h3{
+  color: #000000;
+  text-shadow: 2px 2px 8px #808080;
+}
+
+p {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 8px #808080;
+  margin-top: 20px;
+}
+
+div.logos {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+i {
+  color: #000000;
+  position: relative;
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+/*RED - #DB4437*/
+/*YELLOW - #F4B400*/
+/*GREEN - #0F9D58*/
