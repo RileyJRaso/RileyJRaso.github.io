@@ -25,6 +25,7 @@ li.Navagation{
   position: relative;
   float: left;
   text-align: left;
+  font-weight: 600;
 }
 
 li.Current{
@@ -33,6 +34,7 @@ li.Current{
   position: relative;
   float: left;
   text-align: left;
+  font-weight: 600;
 }
 
 a.Navagation {
@@ -43,6 +45,7 @@ a.Navagation {
   margin: 0;
   border: 0;
   color: #000000;
+  font-weight: 600;
   text-shadow: 1px 1px 4px #FFFFFF;
   z-index: 101;
   text-decoration: none;
@@ -132,15 +135,16 @@ h3{
 p {
   color: #000000;
   position: relative;
-  text-align: center;
+  font-weight: 400;
+  text-Align: left;
   padding-top: 10px;
   padding-bottom: 10px;
-  text-shadow: 2px 2px 8px #808080;
   margin-top: 20px;
 }
 
 div.logos {
   padding: 30px;
+  padding-left: 10px;
   width: 100%;
   text-align: center;
 }
@@ -154,6 +158,19 @@ i {
   padding: 30px;
 }
 
+li {
+  font-weight: 400;
+}
+
+div.resume {
+  margin: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 5px;
+  border: solid #f47721 0px;
+}
+
 /*RED - #DB4437*/
 /*YELLOW - #F4B400*/
 /*GREEN - #0F9D58*/
+/*ORANGE - #f47721*/
